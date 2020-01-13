@@ -1,0 +1,18 @@
+{
+    "name" : "Softmus",
+    "authors" :[
+        {
+        "name" : "Softmus",
+        "email": "gfgfg@gmail.com" 
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer":"5.2.22",
+        "slim/slim":"2.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Beio\\":"vendor\\beio\\php-classes\\src"
+        }
+    }
+}
